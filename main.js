@@ -11,7 +11,7 @@ $(document).ready(function() {
         e.preventDefault();
         const enderecoDaNovaImagem = $('#endereco-imagem-nova').val();
         const novoItem = $('<li style="display: none"></li>');
-        $(`<img scr="${enderecoDaNovaImagem}" />`).appendTo(novoItem);
+        $(`<img src="${enderecoDaNovaImagem}" />`).appendTo(novoItem);
         $(`
             <div class="imagem-link">
                 <a href="${enderecoDaNovaImagem}" target='_blank' title="Ver imagem em tamanho real">
